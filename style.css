@@ -1,0 +1,112 @@
+html {
+  background: url(img/rainbowBG.jpg);
+}
+
+div {
+  width: 500px;
+  margin: auto;
+  padding-left: 75px;
+  padding-right: 75px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+#parameters {
+  font-size: 15px;
+}
+
+#an {
+  font-size: 17px;
+}
+
+#red {
+  background: red;
+  color: white;
+}
+
+#green {
+  background: green;
+  color: white;
+}
+
+#blue {
+  background: blue;
+  color: white;
+}
+
+input {
+  padding-left: 5px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+#black {
+  border-radius: 5px;
+  color: white;
+  background: black;
+  margin-right: 30px;
+  padding: 5px 6px;
+}
+
+#white {
+  border-radius: 5px;
+  color: black;
+  background: white;
+  margin-left: 30px;
+  padding: 5px 6px;
+}
+
+#Preview {
+  color: white;
+  border-radius: 4px;
+  background: gray;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+#lowest {
+  font-style: italic;
+}
+
+#highest {
+  font-style: italic;
+}
+
+#try {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.rgb {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+}
+
+#window {
+  width: 400px;
+  height: 200px;
+  background: rgb(255, 255, 0);
+  border: 3px solid gray;
+  margin: auto;
+}
